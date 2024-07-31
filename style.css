@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+padding: 0px;
+}
+
+
+    body{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+ background-image: linear-gradient(black,gray);
+ align-items: center;;
+}
+
+
+#on{
+    
+    border-radius: 30px;
+    margin: 25px;
+
+}
+#of{
+    border-radius: 30px;
+    margin: 25px;
+}
+audio{
+    display: none;
+}
+footer{
+    font-size:30px;
+    flex-wrap: wrap;
+align-self:  center;
+}
+u{
+    font-size:50px
+    ;
+    margin-bottom: 40px;
+}
+.container{margin: 0px;
+    padding: 0px;
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+    height: 100%;
+  width: 100%;
+color: white;   
+  gap: 30px;
+text-align: center;
+text-decoration: dotted  ;
+}
+.game{display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    flex-direction: row;
+    width: 50%;
+    height:50%;
+
+    border-color: white;
+}
+#new{
+    width:" 100px";
+    height: 34px;
+    background-image: linear-gradient(blue,pink);
+color:aliceblue;
+}
+#gbut{
+    font-size: 170%;
+    justify-content: center;
+    height: 50px;
+    border-color: azure;
+border-spacing: 10px;
+border-top: 0px;
+border-left: 0px;
+border-bottom: 0px;
+    background-image: linear-gradient(black,gray);
+    
+
+    width: 33%;
+    font-weight: bold;
+color: red
+}
+#msg{
+    color:#ffffc7;
+    font-size: 8vmin;
+    
+}
+.msg-container{
+    height: 40vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#msg2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+
+
+}
